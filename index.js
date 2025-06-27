@@ -6,7 +6,7 @@ app.use(express.json());
 app.post("/add", (req, res) => {
   const { a, b } = req.body;
   if (typeof a !== "number" || typeof b !== "number") {
-    return res.status(400).json({ error: "Inputs must be numbers" });
+    return res.status(400).json({ error: "Inputs must be numjhkjhbers" });
   }
   const result = a + b;
   res.json({ result });
